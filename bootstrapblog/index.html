@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hello Bulma!</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.0/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    <!-- <link rel="stylesheet" href="styles/debug.css"> -->
+    <style>
+        .grid {
+            display: grid;
+            grid-template-columns: 0.5fr 1fr 0.5fr;
+        }
+        .grid * {
+            grid-column: 2 / 3;
+        }
+        .center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        @media (max-width: 672px) {
+            :root {
+                font-size: 75%;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- .section -->
+    <section class="section has-background-light">
+        <div class="container grid">
+            <nav class="breadcrumb" aria-label="breadcrumbs">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li class="is-active"><a href="#" aria-current="page">Goals of the orator</a></li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+    <!-- /.section -->
+    <!-- .section -->
+    <section class="section">
+        <div class="container grid ">
+            <!-- media-->
+        <article class="media center">
+        <figure class="media-left">
+            <p class="image is-64x64">
+                <img class="is-rounded" src="img/me.jpg" >
+            </p>
+        </figure>
+        <div class="media-content">
+            <div class="content">
+                <p>
+                    <strong>Marcus Tullius Cicero</strong> <small><a>ruslankondrachuk01@gmail.com</a></small><br>
+                    <span class="has-text-grey">Roman statesman, lawyer, scholar, philosopher<br>
+                <time datetime="2019-08-12">Apr 20</time> · 20 min read</span> 
+                </p>
+            </div>
+        </div>
+    </article>
+    <!-- /.media -->
+    </div>
+    </section>
+    <!-- /.section -->
+    <!-- section -->
+    <section class="section has-background-light is-mobile">
+        <div class="container grid ">
+        <h1 class="title is-2">How to build a beautiful blog</h1>
+        <h2 class="subtitle is-3 has-text-grey">Learn from first-principles</h2>
+        </div>
+    </section>
+    <section class="section">
+        <figure class="columns">
+            <div class="column">
+                <div class="image">
+                    <img src="img/blogpic01.jpg">
+                </div>
+            </div>
+            <div class="column">
+                <div class="image">
+                    <img src="img/blogpic02.jpg">
+                </div>
+            </div>
+            <div class="column">
+                <div class="image">
+                    <img src="img/blogpic03.jpg">
+            </div>
+        </div>
+    </figure>
+            <figcaption class="center">
+                <small class="is-italic has-text-grey">This is how the life of an internet orator looks like.</small>
+            </figcaption>
+        <div class="notification is-white content container has-text-justified" >
+            <p>In Orator, Cicero depicts several models for speakers. Cicero states to the Romans the importance of searching and
+            discovering their own sense of rhetoric. “I am sure, the magnificence of Plato did not deter Aristotle from writing, nor
+            did Aristotle with all his marvelous breadth of knowledge put an end to the studies of others”. Cicero encouraged the
+            plebeians through his writing, “Moreover, not only were outstanding men not deterred from undertaking liberal pursuits,
+            but even craftsmen did not give up their arts because they were unable to equal the beauty of the picture of Ialysus . .
+            . .” Cicero proposes that rhetoric cannot be confined to one specific group but rather outlines a guide that will
+            lead to the creation of successful orators across Roman society.</p>
+            
+            <p>In Orator, Cicero also addressed the accusation lodged by his fellow senators, including Brutus, that he was an
+            “Atticist.” Cicero addresses this claim by saying that he is too independent and bold to be associated with Atticism,
+            producing his own unique style. Cicero claims the perfect orator creates his own “elocutio,” or diction and style,
+            rather than following this movement.</p>
+            
+            <p>Cicero states that all five canons are equally important. Throughout the text, Cicero advises his Roman audience on how
+            to form proper oratory by formal guidelines but also how to specialize individually in their own sense of oratory.
+            Orator is written with ideas ranging from the construction of arguments to rhetorical performance. In relation to other
+            Ciceronian works on rhetoric, Orator receives less treatment with scarce research compared to other rhetorical works.</p>
+        </div>        
+    </section>
+    <!-- /.section -->
+    <!--footer-->
+    <footer class="footer has-background-light">
+        <div class="content has-text-centered">
+            <p>
+                <strong>Blog</strong> by <a href="https://ruslankondrachuk.poltava.ua">Marcus Tullius Cicero</a>. The source code is licensed
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
+                is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
+            </p>
+        </div>
+    </footer>
+    <!--/.footer-->
+</body>
+
+</html>

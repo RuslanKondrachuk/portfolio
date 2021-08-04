@@ -1,0 +1,105 @@
+html,
+body {
+    width: 100%;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+}
+.img-logo {
+    width: 20%;
+    height: 15%;
+    transition: 0.5s ease-in-out;
+}
+.img-logo:hover {
+    transform: scale(1.3);
+}
+.gradient {
+    background: rgb(0,129,242);
+    background: linear-gradient(90deg, rgba(0,129,242,1) 0%, rgba(105,0,199,1) 100%); 
+}
+.page-header {
+    font-size: 1.25rem;
+    color: #fff;
+}
+.feature {
+    color: #fff;
+}
+.feature ul {
+    padding-left: 2rem;
+}
+.feature ul li {
+    padding-left: 2rem;
+    list-style: none;
+	background-image: url("../img/pink-checkmark.svg");
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 3%;
+}
+.col-md-2 {
+    transition: 0.5s ease-in-out;
+}
+.col-md-2:hover {
+    transform: scale(1.5);
+}
+.icon {
+    color: #fff;
+    height: 5rem;
+    width: 5rem;
+    font-size: 1,75rem;
+    border-radius: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.gallery {
+    background-color: whitesmoke;
+}
+.gallery img {
+    border-radius: 5%;
+}
+.services {
+    color: #fff;
+}
+.serv-img:hover {
+    animation: myAnim 2s ease 0s 1 normal forwards;
+}
+@keyframes myAnim {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+
+  10%,
+  30%,
+  50%,
+  70% {
+    transform: translateX(-10px);
+  }
+
+  20%,
+  40%,
+  60% {
+    transform: translateX(10px);
+  }
+
+  80% {
+    transform: translateX(8px);
+  }
+
+  90% {
+    transform: translateX(-8px);
+  }
+}
+footer {
+    color: #fff;
+    font-size: 1rem;
+    margin: 0;
+    padding: 1rem;
+}
+footer a {
+    text-decoration: none;
+    font-weight: 700;
+    transition: 1s ease-in-out;
+}
+footer a:hover {
+    letter-spacing: 0.1rem;
+}

@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Web Developer - Portfolio - Ruslan Kondrachuk - Front End - HTML - CSS - Javascript"
+    />
+    <meta
+      name="keywords"
+      content="Front-End Developer Programming Make Site Write Programm Javascript HTML CSS"
+    />
+    <meta name="author" content="Ruslan Kondrachuk" />
+    <title>
+      Web Developer - Ruslan Kondrachuk - Front End - HTML - CSS - Javascript
+    </title>
+    <!-- favicon.ico-->
+    <link
+      type="image/x-icon"
+      rel="shortcut icon"
+      href="./favicon/favicon.ico"
+    />
+    <!-- fullpage.js styles -->
+    <link rel="stylesheet" href="fullpage.css" />
+    <!-- swiper.js styles -->
+    <link rel="stylesheet" href="./swiper-bundle.min.css" />
+    <!-- main styles -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main id="fullpage">
+      <!-- SECTION 1 -->
+      <article class="section" id="section_1">
+        <header>
+          <h1 id="web">
+            <span id="section_1_text_selection">web</span> developer
+          </h1>
+        </header>
+      </article>
+      <!-- SECTION 2 -->
+      <article class="section" id="section_2">
+        <header>
+          <h1
+            class="your-element"
+            data-tilt
+            data-tilt-max="5"
+            data-tilt-speed="200"
+            data-tilt-perspective="400"
+            data-tilt-reverse="true"
+          >
+            web developer
+          </h1>
+        </header>
+        <nav>
+          <input type="checkbox" id="switch" /><label for="switch"
+            >Toggle</label
+          >
+        </nav>
+      </article>
+      <!-- SECTION 3 -->
+      <article class="section" id="section_3">
+        <header>
+          <h1 id="element"></h1>
+        </header>
+      </article>
+      <!-- SECTION 4 -->
+      <article class="section">
+        <header>
+          <h1 id="text_section_4">web developer</h1>
+        </header>
+      </article>
+      <!-- SECTION 5 -->
+      <article class="section" id="section_5">
+        <header><h1 id="section_5_text">web developer</h1></header>
+        <aside>
+          <svg
+            class="waves"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            viewBox="0 24 150 28"
+            preserveAspectRatio="none"
+            shape-rendering="auto"
+          >
+            <defs>
+              <path
+                id="gentle-wave"
+                d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"
+              />
+            </defs>
+            <g class="parallax">
+              <use
+                xlink:href="#gentle-wave"
+                x="48"
+                y="0"
+                fill="rgba(89, 106, 113,0.7)"
+              />
+              <use
+                xlink:href="#gentle-wave"
+                x="48"
+                y="3"
+                fill="rgba(89, 106, 113,0.5)"
+              />
+              <use
+                xlink:href="#gentle-wave"
+                x="48"
+                y="5"
+                fill="rgba(89, 106, 113,0.3)"
+              />
+              <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff9f1" />
+            </g>
+          </svg>
+        </aside>
+      </article>
+      <!-- SECTION 6 -->
+      <article class="section" id="section_6">
+        <header id="result">
+          <p id="user-choise"></p>
+          <p id="computer-choise"></p>
+          <h2 id="resultdisp"></h2>
+        </header>
+        <nav id="ui">
+          <section class="player">
+            <button type="button" id="papper" class="playerbtn"></button>
+            <button type="button" id="rock" class="playerbtn"></button>
+            <button type="button" id="scissors" class="playerbtn"></button>
+          </section>
+          <section class="computer">
+            <button
+              type="button"
+              id="papper_ai"
+              class="computerpapper"
+              disabled
+            ></button>
+            <button
+              type="button"
+              id="rock_ai"
+              class="computerrock"
+              disabled
+            ></button>
+            <button
+              type="button"
+              id="scissors_ai"
+              class="computerscissors"
+              disabled
+            ></button>
+          </section>
+        </nav>
+      </article>
+      <!-- SECTION 7 -->
+      <article class="section" id="section_7">
+        <header id="#section7_header"></header>
+        <section id="model_car">
+          <h3 id="section7_h3">
+            <span id="section_7_text_animation">web developer</span>
+          </h3>
+        </section>
+      </article>
+      <!-- SECTION 8 -->
+      <article class="section" id="section_8">
+        <main>
+          <!-- Slider main container -->
+          <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">web developer</div>
+              <div class="swiper-slide">ruslan kondrachuk</div>
+              <div class="swiper-slide">poltava city, ukraine</div>
+            </div>
+          </div>
+        </main>
+      </article>
+    </main>
+    <!-- titl.js script - animated text second page-->
+    <script src="./vanilla-tilt.min.js"></script>
+    <!-- anime.js script - first page -->
+    <script src="anime.min.js"></script>
+    <!-- fullpage.js lib - all page - scroll logic -->
+    <script src="fullpage.js"></script>
+    <!-- typeit.js - 3 page-->
+    <script src="./umd.js"></script>
+    <!-- slider last page - swiper.js -->
+    <script src="./swiper-bundle.min.js"></script>
+    <!-- 3d model, three.js, controls -->
+    <script defer src="three.min.js"></script>
+    <script defer src="GLTFLoader.js"></script>
+    <script defer src="OrbitControls.js"></script>
+    <!-- main script -->
+    <script defer src="app.js"></script>
+  </body>
+</html>

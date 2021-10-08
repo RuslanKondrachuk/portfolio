@@ -5,6 +5,13 @@
 * {
   box-sizing: border-box;
 }
+/* Bug fix safari browser */
+#fullpage {
+  -webkit-transform: translate3d(0,0,0);
+}
+.section {
+  -webkit-transform: translate3d(0,0,0);
+}
 ::-moz-selection {
   /* text selection color on all pages*/
   background-color: #eadd46;
